@@ -1,11 +1,11 @@
 # Site settings
-author: Jonathan Harwood
-title: 
+author: Jon Harwood
+title: 11/26 Online Software Engineering 
 header-img: img/home-bg.png
 email: jhharwood88@gmail.com
-copyright_name: Jonathan Harwood
+copyright_name: Jon Harwood
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Full time cohort
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  jhharwood88
