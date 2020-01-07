@@ -1,0 +1,13 @@
+---
+layout: post
+title:      "Asynchronous JavaScript "
+date:       2020-01-07 23:19:17 +0000
+permalink:  asynchronous_javascript
+---
+
+To being this you must first understand the difference between synchronous and asynchronous updates and how that plays a role in JS. With synchronous programming a task is completed one at a time following a strict sequential pattern, from the first process to the last while fully completing one process before it begins on the second. With the development of asycnhcronos updating, one task can be started and then allows the browser to continue on to other tasks while the initial task is completing. This allows the browser to perform multi-tasking meaning that slower loading files such as images and interactive features that would normally slow down a synchronous webpage much faster by allowing the foundation of the webpage to be rendered while still rendering the larger files.
+
+JavaScript is a single threaded language, which means you are only able to perform a single task at a time even if your CPU allows for multiple threads to be used simultaneously. JS is a top to bottom language and is interpreted left to right with each line of code being performed sequentially. Because of this, you would not desire to move large data sets at the same time because it would cause your program to appear to freeze as it loads the data. The people behind JS solved this by allowing web workers to run tasks on the other threads allowing you to move  large data sets in the background while also loading the webpage on the main thread. Web workers do have some issues such as not having access to the DOM and still being held to a synchronous schedule when completing tasks meaning it will potentially have issues when interacting with asynchronously updated objects. 
+
+There are multiple important concepts to take into mind when using a asynchronous programming language such as promises, callback and asynchronous waits. Promises let the webpage know that when an asynchronous call is made that the data will eventually be delivered even if its not readily available on the original render. These tie together with callbacks, which execute at the tail end of a function allowing code to be executed once the main function is complete. This falls into line with waits, this is what specifcally tells the JS program that the data will be delivered on a promise, if it returns the promise correctly the program executes otherwise it will return an error. Asychronous code is not nessisary in smaller applications as it should be able to support itself without needing asynchronous calls.
+
