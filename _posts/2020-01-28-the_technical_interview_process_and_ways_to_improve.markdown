@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "The Technical Interview process, and ways to improve"
-date:       2020-01-28 17:17:36 +0000
+date:       2020-01-28 12:17:37 -0500
 permalink:  the_technical_interview_process_and_ways_to_improve
 ---
 
